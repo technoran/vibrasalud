@@ -68,6 +68,8 @@ h1 em, h2 em { font-weight: 400; }
 .image-story > img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center 55%; }
 .image-story > img { transition: transform .8s cubic-bezier(.2,.7,.2,1); }
 .image-story:hover > img { transform: scale(1.035); }
+.image-carousel > img { position: absolute; top: 0; left: 0; opacity: 0; transition: opacity 1s ease; }
+.image-carousel > img.is-active { opacity: 1; }
 .image-note { position: absolute; bottom: 28px; left: 28px; display: flex; gap: 17px; align-items: center; padding: 17px 21px; background: var(--lime); color: var(--ink); font-size: 12px; font-weight: 600; line-height: 1.5; }
 .note-number { font: 700 25px var(--font-display); }
 .image-caption { position: absolute; right: 22px; bottom: 25px; color: white; font-size: 9px; font-weight: 700; letter-spacing: 1.6px; text-shadow: 0 1px 8px rgba(0,0,0,.4); }

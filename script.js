@@ -195,6 +195,20 @@ function initializeSharedElements() {
 
   initializeDirectory();
   initializeMotionEffects();
+  initializeImageCarousel();
+}
+
+function initializeImageCarousel() {
+  document.querySelectorAll(".image-carousel").forEach((carousel) => {
+    const images = carousel.querySelectorAll("img");
+    if (images.length < 2) return;
+    let activeIndex = 0;
+    setInterval(() => {
+      images[activeIndex].classList.remove("is-active");
+      activeIndex = (activeIndex + 1) % images.length;
+      images[activeIndex].classList.add("is-active");
+    }, 4000);
+  });
 }
 
 function initializeMotionEffects() {
