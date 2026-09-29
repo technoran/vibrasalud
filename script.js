@@ -11,7 +11,7 @@ const professionals = [
     focus: "Odontolopediatria, Ortopedia",
     coverages: ["OSDE","MEDIFE", "OMINT","SANCOR SALUD","CAJA NOTARIAL", "FEDERADA SALUD","JERARQUICOS SALUD", "PODER JUDICIAL", "Swiss Medical", "Particular"],
     contactUrl: "https://sofia.technoransuite.com.ar/",
-    photo: "image/sofiVilla.jpg",
+    photo: "image/sofivilla.jpg",
     bio: " Matricula: 10232, Atención odontológica integral en un entorno tranquilo y cercano.",
   },
   {name: "Od. Sofia Buri",
@@ -20,7 +20,7 @@ const professionals = [
     focus: "Tratamientos de Conducto, Dolor Orofacial, Bruxismo y Trastornos en la ATM",
     coverages: [],
     contactUrl: "https://wa.me/5493534139992",
-    photo: "image/Buri.png",
+    photo: "image/buri.png",
     bio: "Matricula: 10405, Consultas para prevención, salud bucal y tratamientos estéticos.",},
 
     {name: "Od. Santiago Zunino",
