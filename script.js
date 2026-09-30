@@ -1,5 +1,5 @@
 const VIBRA_CONFIG = {
-  address: "Dirección a confirmar · Argentina",
+  address: "Carlos Pellegrini 689, Villa Maria, Córdoba, Argentina",
   mapQuery: "Vibra Salud coworking",
 };
 
@@ -10,7 +10,7 @@ const professionals = [
     key: "odontologia",
     focus: " Matricula: 10232<br>Odontolopediatria, Ortopedia",
     coverages: ["OSDE","MEDIFE", "OMINT","SANCOR SALUD","CAJA NOTARIAL", "FEDERADA SALUD","JERARQUICOS SALUD", "PODER JUDICIAL", "Swiss Medical", "Particular"],
-    contactUrl: "https://sofia.technoransuite.com.ar/",
+    contactUrl: "https://odvillarnovosofia.com.ar/",
     photo: "image/sofivilla.jpg",
     bio: "Atención odontológica integral en un entorno tranquilo y cercano.",
   },
