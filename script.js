@@ -8,135 +8,119 @@ const professionals = [
     name: "Od. Sofia Villarnovo",
     specialty: "Odontología",
     key: "odontologia",
-    focus: "Odontolopediatria, Ortopedia",
+    focus: " Matricula: 10232<br>Odontolopediatria, Ortopedia",
     coverages: ["OSDE","MEDIFE", "OMINT","SANCOR SALUD","CAJA NOTARIAL", "FEDERADA SALUD","JERARQUICOS SALUD", "PODER JUDICIAL", "Swiss Medical", "Particular"],
     contactUrl: "https://sofia.technoransuite.com.ar/",
     photo: "image/sofivilla.jpg",
-    bio: " Matricula: 10232, Atención odontológica integral en un entorno tranquilo y cercano.",
+    bio: "Atención odontológica integral en un entorno tranquilo y cercano.",
   },
   {name: "Od. Sofia Buri",
     specialty: "Odontología",
     key: "odontologia",
-    focus: "Tratamientos de Conducto, Dolor Orofacial, Bruxismo y Trastornos en la ATM",
+    focus: "Matricula: 10405<br>Tratamientos de Conducto, Dolor Orofacial, Bruxismo y Trastornos en la ATM",
     coverages: [],
     contactUrl: "https://wa.me/5493534139992",
     photo: "image/buri.png",
-    bio: "Matricula: 10405, Consultas para prevención, salud bucal y tratamientos estéticos.",},
+    bio: "Consultas para prevención, salud bucal y tratamientos estéticos.",},
 
     {name: "Od. Santiago Zunino",
     specialty: "Odontología",
     key: "odontologia",
-    focus: "Odontología general, Implantes, Cirugías, Rehabilitaciónes complenjas",
+    focus: "Matricula: 10405<br>Odontología general, Implantes, Cirugías, Rehabilitaciónes complejas",
     coverages: [],
     contactUrl: "https://wa.me/5493534211642",
     photo: "image/santiago_zunino.png",
-    bio: "Matricula: 10405, Consultas para prevención, salud bucal y tratamientos estéticos.",},
+    bio: "Consultas para prevención, salud bucal y tratamientos estéticos.",},
 
   {name: "Od. Paviotti Luciano",
     specialty: "Odontología",
     key: "odontologia",
-    focus: "Odontología Estetica, Odontologia General, Rehabilitaciónes Integrales",
+    focus: "Matricula: 1634<br>Odontología Estetica, Odontologia General, Rehabilitaciónes Integrales",
     coverages: ["SOS SALUD", "OSDE", "NOBIS SALUD"],
     contactUrl: "https://wa.me/5493534212929",
     photo: "image/luciano_pavi.jpeg",
-    bio: "Matricula: 1634, Consultas para prevención, salud bucal y tratamientos.",},
+    bio: "Consultas para prevención, salud bucal y tratamientos.",},
 
     {
     name: "Lic. Carignano Yanina",
     specialty: "Nutrición",
     key: "nutricion",
-    focus: "Nutrición antiinflamatorias, Nutricion Oncologica, General.",
+    focus: "Matricula: 2475<br>Nutrición antiinflamatorias, Nutricion Oncologica, General.",
     coverages: [],
     contactUrl: "https://wa.me/5493534296964",
     photo: "image/yanin_ca.jpg",
-    bio: "Matricula: 2475, Especialista en Nutrición antiinflamatoria, abordaje nutricional en patologias digestivas y alimentacion oncologica. Nutricion personalizada para acompañarte a sentirte mejor y cuidar tu salud.",
+    bio: "Especialista en Nutrición antiinflamatoria, abordaje nutricional en patologias digestivas y alimentacion oncologica. Nutricion personalizada para acompañarte a sentirte mejor y cuidar tu salud.",
   },
 
   {
     name: "Lic. Virginia Rubiano",
     specialty: "Nutrición",
     key: "nutricion",
-    focus: "Nutricion Deportiva, Obesidad, Nutricion General",
+    focus: "Matricula: 4456<BR>Nutricion Deportiva, Obesidad, Nutricion General",
     coverages: [],
     contactUrl: "https://virginia.technoransuite.com.ar/",
     photo: "image/vir_rubi.jpg",
-    bio: "Matricula: 4456, Controles de salud.",
+    bio: "Controles de salud.",
   },
   {
     name: "Lic. Valeria Torres",
     specialty: "Nutrición",
     key: "nutricion",
-    focus: "Nutricion Deportiva, Nutricion General",
+    focus: "Matricula:2150 <br>Nutricion Deportiva, Valoracion activa de la composicion corporal",
     coverages: [""],
     contactUrl: "https://wa.me/5493534183659",
     photo: "image/vale_torres.JPG",
-    bio:  "Controles de salud.",},
+    bio:  "Te acompaño en el proceso de alcanzar tu maximo potencial deportivo, mejorando tu alimentacion, habitos y mindset con mi metodo VACC.",},
   {
     name: "Lic. Valentina Bria",
     specialty: "Nutrición",
     key: "nutricion",
-    focus: "Pscico-nutricion, Nutricion General",
+    focus: "Matricula: 5052<BR>Pscico-nutricion, Nutricion General",
     coverages: [""],
     contactUrl: "https://wa.me/5493534419937",
     photo: "image/valentina_bria.jpg",
-    bio:  "Matricula: 5052, Controles de salud.",},  
+    bio:  "Controles de salud.",},  
   {
     name: "Lic. Camila Bonoris",
     specialty: "Psicología",
     key: "psicologia",
-    focus: "Psicologia para mujeres, Vinculos, Duelos, Ansiedad",
+    focus: "Matricula: 12812<br>Psicologia para mujeres, Vinculos, Duelos, Ansiedad",
     coverages: [""],
     contactUrl: "https://wa.me/5493534209963",
     photo: "image/cami.jpg",
-    bio: "Matricula: 12812.",
+    bio: "",
   },
   {
     name: "Lic. Aldana Schiapparelli",
     specialty: "Psicología",
     key: "psicologia",
-    focus: "Psicologia Gestalt - Jovenes y Adultos.",
+    focus: "Matricula: 12910<br>Psicologia Gestalt - Jovenes y Adultos.",
     coverages: [""],
     contactUrl: "https://wa.me/5493537593863",
     photo: "image/aldana.jpg",
-    bio: "Matricula: 12910.",
+    bio: "",
   },
   {
     name: "Lic. Valle Bournissen",
     specialty: "Psicología",
     key: "psicologia",
-    focus: "Especialista en adolecencia, Psicologia para jovenes y adultos",
+    focus: "Matricula: 5165.<br>Especialista en adolecencia, Psicologia para jovenes y adultos",
     coverages: [""],
     contactUrl: "https://wa.me/5493644221124",
     photo: "image/valle.jpg",
-    bio: "Matricula: 5165.",
+    bio: "",
   },
   {
     name: "Dra. Gabriela Segovia",
     specialty: "Estetica",
     key: "estetica",
-    focus: "Medicina Estetica Facial",
+    focus: "Matrícula: 41993<BR>Medicina Estetica Facial",
     coverages: [],
     contactUrl: "https://wa.me/5493515159602",
     photo: "image/gab.jpg",
-    bio: `Matrícula: 41993.<br>
-Toxina botulínica: TERCIO SUPERIOR (frente, entrecejo y patitas de gallo).<br>
-SONRISA GINGIVAL<br>
-BRUXISMO<br>
-HIPERHIDROSIS AXILAR<br>
-MENTÓN EN EMPEDRADO O CELULITIS DEL MENTÓN<br>
-NEFERTITIS<br>
-ARRUGAS PERIBUCALES o CÓDIGO DE BARRAS<br>
-DEPRESIÓN DE COMISURAS LABIALES.<br>
-Diseño de labios: DISTINTOS OBJETIVOS, SE PUEDE DAR VOLUMEN, HIDRATAR, REDEFINIR CONTORNO O CORREGIR ASIMETRÍAS.<br>
-Rinomodelación: MEJORA EL PERFIL NASAL Y ELEVA LA PUNTA.<br>
-Armonización facial: La armonización facial es un enfoque integral para resaltar tu belleza natural. Con técnicas mínimamente invasivas, se busca equilibrar las proporciones del rostro, suavizar rasgos y restaurar la juventud, obteniendo resultados sutiles y armoniosos. Para ello se combina el uso de toxina botulínica, bioestimuladores de colágeno y ácido hialurónico, que se decide con la previa valoración del paciente.<br>
-Bioestimuladores de Colágeno: RADIESSE<br>
-SCULPTRA<br>
-HARMONYCA<br>
-LONG LASTING<br>
-PROFHILO<br>
-Mesoterapia facial: Nctf 135 AH: (5mg/ml de ácido hialurónico no reticulado + 59 ingredientes revitalizantes (vitaminas, minerales, aminoácidos, coenzimas))<br>
-Plasma rico en plaquetas: es un derivado de la sangre que estimula la producción de colágeno, elastina y tejido epidérmico, por lo que con su utilización se consigue una piel más tersa, luminosa y de mejor calidad.`,
+    bio: `Tratamientos inyectables esteticos<br>
+-Toxina botulínica, Ácido Hialurónico.<br>-Bioestimuladores de colageno.<br>
+Todo con un enfoque orientado a lograr la armonizacion facial de cada persona en base a sus indicaciones y necesidades.`,
 },
 {
     name: "Carignano Yanina",
@@ -152,11 +136,11 @@ Plasma rico en plaquetas: es un derivado de la sangre que estimula la producció
     name: "Dra. Giuliana Zucotti",
     specialty: "Estetica",
     key: "estetica",
-    focus: "Medicina Estetica y Tricologia",
+    focus: "Matricula: 40707<br>Medicina Estetica y Tricologia",
     coverages: [""],
     contactUrl: "https://wa.me/5492664157173",
     photo: "image/giuliana.jpg",
-    bio: "Matricula: 40707, Armonizacion facial, Tratamientos capilares regenerativos.",
+    bio: "Armonizacion facial, Tratamientos capilares regenerativos.",
   },
 
 ];
