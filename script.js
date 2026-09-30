@@ -247,15 +247,21 @@ function initializeDirectory() {
 
   const filterContainer = document.querySelector("[data-specialty-filters]");
   const insuranceSelect = document.querySelector("[data-insurance-filter]");
+  const insuranceFilter = insuranceSelect.closest(".insurance-select");
   const resultCount = document.querySelector("[data-result-count]");
   const emptyState = document.querySelector("[data-empty-state]");
   const clearButton = document.querySelector("[data-clear-filters]");
   const requestedSpecialty = new URLSearchParams(window.location.search).get("especialidad") || "";
   const initialSpecialty = specialties.some(([, key]) => key === requestedSpecialty) ? requestedSpecialty : "";
-  const coverages = [...new Set(professionals.flatMap(({ coverages: items }) => items))].sort((a, b) => a.localeCompare(b, "es"));
+  const coverages = [...new Set(professionals
+    .filter(({ key }) => key === "odontologia")
+    .flatMap(({ coverages: items }) => items)
+    .filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"));
   let activeSpecialty = initialSpecialty;
   let activeInsurance = "";
   let openProfessional = "";
+
+  insuranceFilter.hidden = activeSpecialty !== "odontologia";
 
   filterContainer.innerHTML = specialties.map(([label, key]) => `
     <button class="filter-chip" type="button" data-specialty="${key}" aria-pressed="${key === activeSpecialty}">${label}</button>
@@ -307,6 +313,11 @@ function initializeDirectory() {
     const button = event.target.closest("[data-specialty]");
     if (!button) return;
     activeSpecialty = button.dataset.specialty;
+    insuranceFilter.hidden = activeSpecialty !== "odontologia";
+    if (activeSpecialty !== "odontologia") {
+      activeInsurance = "";
+      insuranceSelect.value = "";
+    }
     openProfessional = "";
     filterContainer.querySelectorAll("[data-specialty]").forEach((filter) => {
       filter.setAttribute("aria-pressed", String(filter.dataset.specialty === activeSpecialty));
@@ -332,6 +343,7 @@ function initializeDirectory() {
     activeSpecialty = "";
     activeInsurance = "";
     openProfessional = "";
+    insuranceFilter.hidden = true;
     insuranceSelect.value = "";
     filterContainer.querySelectorAll("[data-specialty]").forEach((filter) => {
       filter.setAttribute("aria-pressed", String(filter.dataset.specialty === ""));

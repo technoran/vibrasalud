@@ -179,6 +179,7 @@ h1 em, h2 em { font-weight: 400; }
 .filter-chip:hover { border-color: var(--green); color: var(--ink); }
 .filter-chip[aria-pressed="true"] { border-color: var(--green); background: var(--green); color: white; }
 .insurance-select { min-width: 205px; position: relative; display: grid; gap: 7px; }
+.insurance-select[hidden] { display: none; }
 .insurance-select > span:first-child { color: #78867d; font-size: 9px; font-weight: 700; letter-spacing: 1px; }
 .insurance-select select { width: 100%; min-height: 39px; appearance: none; padding: 0 34px 0 13px; border: 1px solid var(--line); border-radius: 3px; background: var(--paper); color: var(--ink); font-size: 11px; cursor: pointer; }
 .select-arrow { position: absolute; right: 13px; bottom: 7px; pointer-events: none; font-size: 18px; }
