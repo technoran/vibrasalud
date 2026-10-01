@@ -17,7 +17,7 @@ const professionals = [
   {name: "Od. Sofia Buri",
     specialty: "Odontología",
     key: "odontologia",
-    focus: "Matricula: 10405<br>Tratamientos de Conducto, Dolor Orofacial, Bruxismo y Trastornos en la ATM",
+    focus: "Matricula: 10405<br>Tratamientos de Conducto, Dolor Orofacial, Bruxismo y Trastornos en la ATM.",
     coverages: [],
     contactUrl: "https://wa.me/5493534139992",
     photo: "image/buri.png",
