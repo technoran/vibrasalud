@@ -12,7 +12,7 @@ const professionals = [
     coverages: ["OSDE","MEDIFE", "OMINT","SANCOR SALUD","CAJA NOTARIAL", "FEDERADA SALUD","JERARQUICOS SALUD", "PODER JUDICIAL", "Swiss Medical", "Particular"],
     contactUrl: "https://odvillarnovosofia.com.ar/",
     photo: "image/sofivilla.jpg",
-    bio: "Atención odontológica integral en un entorno tranquilo y cercano.",
+    bio: "Odontopediatria.<br>Ortepedia-Ortodoncia.<br>Odontología mínima intervención.",
   },
   {name: "Od. Sofia Buri",
     specialty: "Odontología",
