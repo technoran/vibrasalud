@@ -39,7 +39,7 @@ const professionals = [
     coverages: ["SOS SALUD", "OSDE", "NOBIS SALUD"],
     contactUrl: "https://wa.me/5493534212929",
     photo: "image/luciano_pavi.jpeg",
-    bio: "Consultas para prevención, salud bucal y tratamientos.",},
+    bio: "Me gusta recuperar dientes que con el tiempo fueron perdiend su forma, su color o su funcion, buscando que vuelvan a sentirse y verse natuarles.<br>Pero antes de reconstruir, para mi es fundamental empezar por una boca sana.<br>Por eso, primero trato caries, realizo limpiezas y elimino cualquier foco que pueda generar problemas.<br>Desde esa base, trabajo para devolver el equilibrio, función y naturalidad a cada sonrisa.",},
 
     {
     name: "Lic. Carignano Yanina",
