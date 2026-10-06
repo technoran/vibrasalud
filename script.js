@@ -21,7 +21,7 @@ const professionals = [
     coverages: [],
     contactUrl: "https://wa.me/5493534139992",
     photo: "image/buri.png",
-    bio: "Consultas para prevención, salud bucal y tratamientos estéticos.",},
+    bio: "Me dedico a realizar Tratamientos de Conductos y a abordar el dolor dentario y facial. También me enfoco en Bruxismo, molestias, trabas y ruidos al abrir y cerrar la boca.<br>Busco entender qué está pasando y encontrar el tratamiento más adecuado para cada caso. Me gusta trabajar con paciencia, explicar cada paso y generar un espacio de tranquilidad, especialmente cuando el dolor o el miedo llegan antes que la consulta..",},
 
     {name: "Od. Santiago Zunino",
     specialty: "Odontología",
@@ -60,7 +60,7 @@ const professionals = [
     coverages: [],
     contactUrl: "https://virginia.technoransuite.com.ar/",
     photo: "image/vir_rubi.jpg",
-    bio: "Controles de salud.",
+    bio: "Acompaño a corredores y deportistas de equipo a mejorar su alimentación para rendir mejor.<br>También trabajo en procesos de recomposición corporal, siempre desde un abordaje integral<br>Busco que la nutrición se adapte a tu deporte, tus objetivos y tu vida real.<br>Estrategias simples, personalizadas y sostenibles.",
   },
   {
     name: "Lic. Valeria Torres",
@@ -98,7 +98,7 @@ const professionals = [
     coverages: [""],
     contactUrl: "https://wa.me/5493537593863",
     photo: "image/aldana.jpg",
-    bio: "",
+    bio: "¡Hola! Soy Aldana Schiapparelli Licenciada en Psicología Gestalt, complementada con el enfoque Cognitivo-Conductual.<br>Mi trabajo se enmarca en una terapia humanista y experiencial, centrada fundamentalmente en el presente, en el aquí y ahora, y en aquello que te urge resolver hoy. Entiendo el espacio terapéutico como una relación sana, cálida y horizontal, libre de asimetrías, donde construimos un vínculo de absoluta confianza.<br>Acompaño a jóvenes y adultos en procesos individuales, tanto en modalidad presencial como online, y también realizo talleres grupales orientados al crecimiento personal.<br>Te invito a coordinar tu turno para comenzar tu proceso.",
   },
   {
     name: "Lic. Valle Bournissen",
@@ -123,14 +123,14 @@ const professionals = [
 Todo con un enfoque orientado a lograr la armonizacion facial de cada persona en base a sus indicaciones y necesidades.`,
 },
 {
-    name: "Depilacion Definitiva",
+    name: "Depilación Definitiva",
     specialty: "Estetica",
     key: "estetica",
-    focus: "Depilacion Soprano ICE",
+    focus: "Depilación Láser con tecnología Soprano Original",
     coverages: [""],
     contactUrl: "https://wa.me/5493534296964",
     photo: "image/maquina2.jpg",
-    bio: "Operado por profesionales de la salud.",
+    bio: "Trabajamos con equipos Soprano originales, reconocidos por su tecnología y efectividad.<br>✔️ Tratamientos indoloros<br>✔️Resultados visibles desde la primera sesión, para hombres y mujeres <br>✔️ Tecnología segura y de alta calidad<br>Comenzá tu tratamiento y disfrutá una piel sin vellos y suave por más tiempo.",
   },
   {
     name: "Dra. Giuliana Zucotti",
