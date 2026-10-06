@@ -11,7 +11,7 @@ const professionals = [
     focus: " Matricula: 10232<br>Odontopediatria, Ortopedia",
     coverages: ["OSDE","MEDIFE", "OMINT","SANCOR SALUD","CAJA NOTARIAL", "FEDERADA SALUD","JERARQUICOS SALUD", "PODER JUDICIAL", "Swiss Medical", "Particular"],
     contactUrl: "https://odvillarnovosofia.com.ar/",
-    photo: "image/sofivilla.jpg",
+    photo: "image/villarnoboa.jpg",
     bio: "Odontopediatria.<br>Ortopedia-Ortodoncia.<br>Odontología mínima intervención.",
   },
   {name: "Od. Sofia Buri",
@@ -20,7 +20,7 @@ const professionals = [
     focus: "Matricula: 10405<br>Tratamientos de Conducto, Dolor Orofacial, Bruxismo y Trastornos en la ATM.",
     coverages: [],
     contactUrl: "https://wa.me/5493534139992",
-    photo: "image/buri.png",
+    photo: "image/sofiburia.jpg",
     bio: "Me dedico a realizar Tratamientos de Conductos y a abordar el dolor dentario y facial. También me enfoco en Bruxismo, molestias, trabas y ruidos al abrir y cerrar la boca.<br>Busco entender qué está pasando y encontrar el tratamiento más adecuado para cada caso. Me gusta trabajar con paciencia, explicar cada paso y generar un espacio de tranquilidad, especialmente cuando el dolor o el miedo llegan antes que la consulta..",},
 
     {name: "Od. Santiago Zunino",
@@ -29,7 +29,7 @@ const professionals = [
     focus: "Matricula: 10405<br>Odontología general, Implantes, Cirugías, Rehabilitaciónes complejas",
     coverages: [],
     contactUrl: "https://wa.me/5493534211642",
-    photo: "image/santiago_zunino.png",
+    photo: "image/zuninoa.jpg",
     bio: "Acompaño a mis pacientes en la disintitas etapas de su salud bucal, desde la odontología general hasta tratamientos más complejos como implantes y cirugías.<br>También trabajo en odontología estética y rehabilitaciones protésicas integrales, buscando que cada tratamiento combine funcionalidad, salud y estética, siempre pensando en lo que cada paciente necesita.",},
 
   {name: "Od. Paviotti Luciano",
@@ -38,7 +38,7 @@ const professionals = [
     focus: "Matricula: 1634<br>Odontología Estetica, Odontologia General, Rehabilitaciónes Integrales",
     coverages: ["SOS SALUD", "OSDE", "NOBIS SALUD"],
     contactUrl: "https://wa.me/5493534212929",
-    photo: "image/luciano_pavi.jpeg",
+    photo: "image/paviottia.jpeg",
     bio: "Me gusta recuperar dientes que con el tiempo fueron perdiendo su forma, su color o su funcion, buscando que vuelvan a sentirse y verse natuarles.<br>Pero antes de reconstruir, para mi es fundamental empezar por una boca sana.<br>Por eso, primero trato caries, realizo limpiezas y elimino cualquier foco que pueda generar problemas.<br>Desde esa base, trabajo para devolver el equilibrio, función y naturalidad a cada sonrisa.",},
 
     {
@@ -48,7 +48,7 @@ const professionals = [
     focus: "Matricula: 2475<br>Nutrición antiinflamatoria, Nutricion Oncologica, General, Escaneo de composicion corporal.",
     coverages: [],
     contactUrl: "https://wa.me/5493534296964",
-    photo: "image/yanin_ca.jpg",
+    photo: "image/carignanoa.jpg",
     bio: "Especialista en Nutrición antiinflamatoria, abordaje nutricional en patologias digestivas y alimentacion oncologica. Nutricion personalizada para acompañarte a sentirte mejor y cuidar tu salud.",
   },
 
@@ -59,7 +59,7 @@ const professionals = [
     focus: "Matricula: 4456<BR>Nutricion Deportiva, Obesidad, Nutricion General",
     coverages: [],
     contactUrl: "https://virginia.technoransuite.com.ar/",
-    photo: "image/vir_rubi.jpg",
+    photo: "image/rubianoa.jpg",
     bio: "Acompaño a corredores y deportistas de equipo a mejorar su alimentación para rendir mejor.<br>También trabajo en procesos de recomposición corporal, siempre desde un abordaje integral<br>Busco que la nutrición se adapte a tu deporte, tus objetivos y tu vida real.<br>Estrategias simples, personalizadas y sostenibles.",
   },
   {
@@ -69,7 +69,7 @@ const professionals = [
     focus: "Matricula:2150 <br>Nutricion Deportiva, Valoracion activa de la composicion corporal",
     coverages: [""],
     contactUrl: "https://wa.me/5493534183659",
-    photo: "image/vale_torres.JPG",
+    photo: "image/torresa.JPG",
     bio:  "Te acompaño en el proceso de alcanzar tu maximo potencial deportivo, mejorando tu alimentacion, habitos y mindset con mi metodo VACC.",},
   {
     name: "Lic. Valentina Bria",
@@ -78,7 +78,7 @@ const professionals = [
     focus: "Matricula: 5052<BR>Alimentación intuitiva y Psiconutrición",
     coverages: [""],
     contactUrl: "https://wa.me/5493534419937",
-    photo: "image/valentina_bria.jpg",
+    photo: "image/brianaa.jpg",
     bio:  "Un espacio para hacer las paces con la comida y con tu cuerpo.<br>Te acompaño a construir una relación más amable con ambos, desde una alimantación suficiente, nutritiva, flexible y placentera, sin dietas, prohibiciones ni culpa.",},  
   {
     name: "Lic. Camila Bonoris Mainardi",
@@ -87,7 +87,7 @@ const professionals = [
     focus: "Matricula: 12812<br>Psicologia para mujeres:Vinculos, Duelos, Ansiedad",
     coverages: [""],
     contactUrl: "https://wa.me/5493534456983",
-    photo: "image/cami.jpg",
+    photo: "image/bonoa.jpg",
     bio: "Abordaje desde Terapias Contextuales, con orientacion en Terapia de Aceptación y Compromiso (ACT).<BR>Un espacio para hacer lugar a lo que sentimos y construir una vida con sentido propio",
   },
   {
@@ -97,7 +97,7 @@ const professionals = [
     focus: "Matricula: 12910<br>Psicologia Gestalt - Jovenes y Adultos.",
     coverages: [""],
     contactUrl: "https://wa.me/5493537593863",
-    photo: "image/aldana.jpg",
+    photo: "image/aldanaa.jpg",
     bio: "¡Hola! Soy Aldana Schiapparelli Licenciada en Psicología Gestalt, complementada con el enfoque Cognitivo-Conductual.<br>Mi trabajo se enmarca en una terapia humanista y experiencial, centrada fundamentalmente en el presente, en el aquí y ahora, y en aquello que te urge resolver hoy. Entiendo el espacio terapéutico como una relación sana, cálida y horizontal, libre de asimetrías, donde construimos un vínculo de absoluta confianza.<br>Acompaño a jóvenes y adultos en procesos individuales, tanto en modalidad presencial como online, y también realizo talleres grupales orientados al crecimiento personal.<br>Te invito a coordinar tu turno para comenzar tu proceso.",
   },
   {
@@ -107,7 +107,7 @@ const professionals = [
     focus: "Matricula: 5165.<br>Especialista en adolescencia, Psicologia para jovenes y adultos",
     coverages: [""],
     contactUrl: "https://wa.me/5493644221124",
-    photo: "image/valle.jpg",
+    photo: "image/valleboua.jpg",
     bio: "Hace más de 20 años que trabajo con adolescentes y adultos desde una mirada analítica e integral.<br>Me gusta crear espacios seguros donde poder hablar, sentir, cuestionarse, analizarse y reconstruirse, a tu propio tiempo y sin juicios.",
   },
   {
@@ -117,7 +117,7 @@ const professionals = [
     focus: "Matrícula: 41993<BR>Medicina Estetica Facial",
     coverages: [],
     contactUrl: "https://wa.me/5493515159602",
-    photo: "image/gab.jpg",
+    photo: "image/segoviaa.jpg",
     bio: `Tratamientos inyectables esteticos<br>
 -Toxina botulínica, Ácido Hialurónico.<br>-Bioestimuladores de colageno.<br>
 Todo con un enfoque orientado a lograr la armonizacion facial de cada persona en base a sus indicaciones y necesidades.`,
@@ -129,7 +129,7 @@ Todo con un enfoque orientado a lograr la armonizacion facial de cada persona en
     focus: "Depilación Láser con tecnología Soprano Original",
     coverages: [""],
     contactUrl: "https://wa.me/5493534296964",
-    photo: "image/maquina2.jpg",
+    photo: "image/difinitivaa.jpg",
     bio: "Trabajamos con equipos Soprano originales, reconocidos por su tecnología y efectividad.<br>✔️ Tratamientos indoloros<br>✔️Resultados visibles desde la primera sesión, para hombres y mujeres <br>✔️ Tecnología segura y de alta calidad<br>Comenzá tu tratamiento y disfrutá una piel sin vellos y suave por más tiempo.",
   },
   {
@@ -139,7 +139,7 @@ Todo con un enfoque orientado a lograr la armonizacion facial de cada persona en
     focus: "Matricula: 40707<br>Medicina Estetica y Tricologia",
     coverages: [""],
     contactUrl: "https://wa.me/5492664157173",
-    photo: "image/giuliana.jpg",
+    photo: "image/zucotia.jpg",
     bio: "Naturalidad, criterio médico y resultados que acompañan<br>Entiendo la medicina estética como una herramienta para mejorar, cuidar y acompañar, no para transformar.<br>Por eso, cada tratamiento comienza con una evaluación personalizada: escuchar qué busca cada paciente, analizar qué necesita realmente y elegir la estrategia más adecuada.<br>Trabajo en tratamientos faciales y corporales, calidad de piel, bioestimulación, toxina botulínica, armonización facial y tratamiento de alopecias y salud capilar, combinando medicina y tecnología con un abordaje responsable.<br>Mi objetivo es lograr resultados naturales, progresivos y armónicos, respetando las características y la identidad de cada persona.<br>Porque una buena estética no debería cambiar quién sos, sino ayudarte a sentirte mejor con vos mismo/a.",
   },
 
