@@ -12,7 +12,7 @@ const professionals = [
     coverages: ["OSDE","MEDIFE", "OMINT","SANCOR SALUD","CAJA NOTARIAL", "FEDERADA SALUD","JERARQUICOS SALUD", "PODER JUDICIAL", "Swiss Medical", "Particular"],
     contactUrl: "https://odvillarnovosofia.com.ar/",
     photo: "image/villarnoboa.jpg",
-    bio: "Odontopediatria.<br>Ortopedia-Ortodoncia.<br>Odontología mínima intervención.",
+    bio: "Odontóloga especializada en Odontopediatría🧸 Mi propósito es acompañar de manera respetuosa a cada niño y su familia a lo largo de su crecimiento y desarrollo, promoviendo hábitos saludables.<br>🦷Atención de bebes, niños y adolescentes<br>🦷Tratamientos de Ortopedia Funcional de los Maxilares y Ortodoncia.<br>Te invito a que juntos construyamos una sonrisa para toda la vida💫",
   },
   {name: "Od. Sofia Buri",
     specialty: "Odontología",
