@@ -208,7 +208,8 @@ h1 em, h2 em { font-weight: 400; }
 .empty-state { margin: 0; padding: 45px 0; color: var(--ink-soft); font-size: 14px; }
 .directory-note { margin: 20px 0 0; color: #7a8980; font-size: 10px; line-height: 1.6; }
 .directory-contact { position: relative; overflow: hidden; padding-block: 76px; background: var(--green-deep); color: white; }
-.directory-contact-inner { position: relative; z-index: 1; }
+.directory-contact-inner { position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+.community-photo { width: 220px; height: 220px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 4px solid var(--lime); }
 .directory-contact h2 { margin: 18px 0 23px; font-size: clamp(43px, 5vw, 62px); }
 .directory-contact h2 em { color: var(--lime); }
 .directory-contact::after { content: "v."; position: absolute; top: -130px; right: 12%; color: rgba(216,239,125,.08); font: 800 420px/.9 var(--font-display); }
@@ -334,6 +335,8 @@ h1 em, h2 em { font-weight: 400; }
   .detail-action { grid-column: auto; }
   .directory-contact { padding-block: 62px; }
   .directory-contact h2 { font-size: 48px; }
+  .directory-contact-inner { flex-direction: column; align-items: flex-start; }
+  .community-photo { width: 160px; height: 160px; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
