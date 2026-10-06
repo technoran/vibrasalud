@@ -108,7 +108,7 @@ const professionals = [
     coverages: [""],
     contactUrl: "https://wa.me/5493644221124",
     photo: "image/valle.jpg",
-    bio: "",
+    bio: "Hace más de 20 años que trabajo con adolescentes y adultos desde una mirada analítica e integral.<br>Me gusta crear espacios seguros donde poder hablar, sentir, cuestionarse, analizarse y reconstruirse, a tu propio tiempo y sin juicios.",
   },
   {
     name: "Dra. Gabriela Segovia",
@@ -140,7 +140,7 @@ Todo con un enfoque orientado a lograr la armonizacion facial de cada persona en
     coverages: [""],
     contactUrl: "https://wa.me/5492664157173",
     photo: "image/giuliana.jpg",
-    bio: "Armonizacion facial, Tratamientos capilares regenerativos.",
+    bio: "Naturalidad, criterio médico y resultados que acompañan<br>Entiendo la medicina estética como una herramienta para mejorar, cuidar y acompañar, no para transformar.<br>Por eso, cada tratamiento comienza con una evaluación personalizada: escuchar qué busca cada paciente, analizar qué necesita realmente y elegir la estrategia más adecuada.<br>Trabajo en tratamientos faciales y corporales, calidad de piel, bioestimulación, toxina botulínica, armonización facial y tratamiento de alopecias y salud capilar, combinando medicina y tecnología con un abordaje responsable.<br>Mi objetivo es lograr resultados naturales, progresivos y armónicos, respetando las características y la identidad de cada persona.<br>Porque una buena estética no debería cambiar quién sos, sino ayudarte a sentirte mejor con vos mismo/a.",
   },
 
 ];
