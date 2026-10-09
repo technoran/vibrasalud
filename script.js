@@ -8,7 +8,7 @@ const professionals = [
     name: "Od. Sofia Villarnovo",
     specialty: "Odontología",
     key: "odontologia",
-    focus: " Matricula: 10232<br>Odontopediatria, Ortopedia",
+    focus: " Matricula: 10232<br>Odontopediatria, Ortopedia y Ortodoncia",
     coverages: ["OSDE","MEDIFE", "OMINT","SANCOR SALUD","CAJA NOTARIAL", "FEDERADA SALUD","JERARQUICOS SALUD", "PODER JUDICIAL", "Swiss Medical", "Particular"],
     contactUrl: "https://odvillarnovosofia.com.ar/",
     photo: "image/villarnoboa.jpg",
@@ -38,7 +38,7 @@ const professionals = [
     focus: "Matricula: 1634<br>Odontología Estetica, Odontologia General, Rehabilitaciónes Integrales",
     coverages: ["SOS SALUD", "OSDE", "NOBIS SALUD"],
     contactUrl: "https://wa.me/5493534212929",
-    photo: "image/paviottia.jpeg",
+    photo: "image/lupavi.jpg",
     bio: "Me gusta recuperar dientes que con el tiempo fueron perdiendo su forma, su color o su funcion, buscando que vuelvan a sentirse y verse natuarles.<br>Pero antes de reconstruir, para mi es fundamental empezar por una boca sana.<br>Por eso, primero trato caries, realizo limpiezas y elimino cualquier foco que pueda generar problemas.<br>Desde esa base, trabajo para devolver el equilibrio, función y naturalidad a cada sonrisa.",},
 
     {
@@ -87,7 +87,7 @@ const professionals = [
     focus: "Matricula: 12812<br>Psicologia para mujeres:Vinculos, Duelos, Ansiedad",
     coverages: [""],
     contactUrl: "https://wa.me/5493534456983",
-    photo: "image/bonoa.jpg",
+    photo: "image/bonoripro.jpg",
     bio: "Abordaje desde Terapias Contextuales, con orientacion en Terapia de Aceptación y Compromiso (ACT).<BR>Un espacio para hacer lugar a lo que sentimos y construir una vida con sentido propio",
   },
   {
