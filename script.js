@@ -69,7 +69,7 @@ const professionals = [
     focus: "Matricula:2150 <br>Nutricion Deportiva, Valoracion activa de la composicion corporal",
     coverages: [""],
     contactUrl: "https://wa.me/5493534183659",
-    photo: "image/torresa.JPG",
+    photo: "image/torrespro.JPG",
     bio:  "Te acompaño en el proceso de alcanzar tu maximo potencial deportivo, mejorando tu alimentacion, habitos y mindset con mi metodo VACC.",},
   {
     name: "Lic. Valentina Bria",
