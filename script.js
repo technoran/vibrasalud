@@ -70,7 +70,7 @@ const professionals = [
     coverages: [""],
     contactUrl: "https://wa.me/5493534183659",
     photo: "image/torrespro.jpg",
-    bio:  "Hace más de 20 años que trabajo con adolescentes, jóvenes y adultos desde una mirada analítica e integral.<br>Me gusta crear espacios seguros donde poder hablar, sentir, analizar y reconstruirte, a tu propio tiempo y sin juicios.",},
+    bio:  "Te acompaño en el proceso de alcanzar tu máximo potencial deportivo, mejorando tu alimentación, hábitos y mindset con mi método VACC.",},
   {
     name: "Lic. Valentina Bria",
     specialty: "Nutrición",
