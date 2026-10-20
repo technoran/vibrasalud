@@ -180,6 +180,95 @@ function initializeSharedElements() {
   initializeDirectory();
   initializeMotionEffects();
   initializeImageCarousel();
+  initializeLightbox();
+}
+
+function initializeLightbox() {
+  const dialog = document.querySelector("[data-lightbox]");
+  if (!(dialog instanceof HTMLDialogElement)) return;
+
+  const image = dialog.querySelector("[data-lightbox-image]");
+  const caption = dialog.querySelector("[data-lightbox-caption]");
+  const counter = dialog.querySelector("[data-lightbox-counter]");
+  const closeButton = dialog.querySelector("[data-lightbox-close]");
+  const previousButton = dialog.querySelector("[data-lightbox-previous]");
+  const nextButton = dialog.querySelector("[data-lightbox-next]");
+  const galleryItems = [...document.querySelectorAll("[data-gallery-category]")].flatMap((category) => {
+    const items = [...category.querySelectorAll("[data-gallery-item]")];
+    const label = category.dataset.galleryCategory;
+    items.forEach((item, index) => {
+      item.dataset.caption = `${label} · ${index + 1} de ${items.length}`;
+    });
+    return items;
+  });
+
+  if (!image || !caption || !counter || !closeButton || !previousButton || !nextButton || galleryItems.length === 0) return;
+
+  let activeIndex = 0;
+  let returnFocusTo = null;
+
+  function showImage(index) {
+    activeIndex = (index + galleryItems.length) % galleryItems.length;
+    const thumbnail = galleryItems[activeIndex].querySelector("img");
+    if (!thumbnail) return;
+    image.src = thumbnail.src;
+    image.alt = thumbnail.alt;
+    caption.textContent = galleryItems[activeIndex].dataset.caption;
+    counter.textContent = `${activeIndex + 1} / ${galleryItems.length}`;
+  }
+
+  galleryItems.forEach((item, index) => {
+    item.addEventListener("click", () => {
+      returnFocusTo = item;
+      showImage(index);
+      dialog.showModal();
+      document.documentElement.classList.add("lightbox-open");
+    });
+  });
+
+  previousButton.addEventListener("click", () => showImage(activeIndex - 1));
+  nextButton.addEventListener("click", () => showImage(activeIndex + 1));
+  closeButton.addEventListener("click", () => dialog.close());
+
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+
+  dialog.addEventListener("close", () => {
+    document.documentElement.classList.remove("lightbox-open");
+    returnFocusTo?.focus();
+  });
+
+  dialog.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      event.preventDefault();
+      dialog.close();
+    } else if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      showImage(activeIndex - 1);
+    } else if (event.key === "ArrowRight") {
+      event.preventDefault();
+      showImage(activeIndex + 1);
+    }
+  });
+
+  let pointerStart = null;
+  const stage = dialog.querySelector("[data-lightbox-stage]");
+  stage?.addEventListener("pointerdown", (event) => {
+    if (event.pointerType === "mouse") return;
+    pointerStart = { x: event.clientX, y: event.clientY };
+  });
+  stage?.addEventListener("pointerup", (event) => {
+    if (!pointerStart) return;
+    const deltaX = event.clientX - pointerStart.x;
+    const deltaY = event.clientY - pointerStart.y;
+    pointerStart = null;
+    if (Math.abs(deltaX) < 50 || Math.abs(deltaX) < Math.abs(deltaY)) return;
+    showImage(activeIndex + (deltaX < 0 ? 1 : -1));
+  });
+  stage?.addEventListener("pointercancel", () => {
+    pointerStart = null;
+  });
 }
 
 function initializeImageCarousel() {

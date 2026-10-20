@@ -214,6 +214,36 @@ h1 em, h2 em { font-weight: 400; }
 .directory-contact h2 em { color: var(--lime); }
 .directory-contact::after { content: "v."; position: absolute; top: -130px; right: 12%; color: rgba(216,239,125,.08); font: 800 420px/.9 var(--font-display); }
 
+.gallery-hero { min-height: 380px; }
+.gallery-hero .page-hero-content { padding-block: 42px; }
+.gallery-hero h1 { margin-bottom: 18px; }
+.gallery-hero .page-hero-content > p:not(.eyebrow) { max-width: 440px; }
+.gallery-hero .specialty-art { right: 9%; }
+.gallery-section { padding-top: 82px; }
+.gallery-group + .gallery-group { margin-top: 94px; }
+.gallery-group .section-heading-row { margin-bottom: 30px; }
+.gallery-group .section-heading-row h2 { font-size: 43px; }
+.gallery-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.gallery-item { position: relative; overflow: hidden; aspect-ratio: 4 / 3; padding: 0; border: 0; background: #dfe4d9; cursor: zoom-in; }
+.gallery-item::after { position: absolute; inset: 0; content: ""; background: linear-gradient(0deg, rgba(18,59,52,.18), transparent 45%); opacity: 0; transition: opacity .25s ease; }
+.gallery-item img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .45s cubic-bezier(.2,.7,.2,1); }
+.gallery-item:hover img, .gallery-item:focus-visible img { transform: scale(1.05); }
+.gallery-item:hover::after, .gallery-item:focus-visible::after { opacity: 1; }
+html.lightbox-open { overflow: hidden; }
+.lightbox { width: 100%; max-width: none; height: 100%; max-height: none; margin: 0; padding: 22px; overflow: hidden; border: 0; background: rgba(12, 27, 24, .43); color: white; }
+.lightbox::backdrop { background: rgba(12, 27, 24, .72); backdrop-filter: blur(13px); }
+.lightbox-layout { width: min(1500px, 100%); height: 100%; margin-inline: auto; display: grid; grid-template-columns: 62px minmax(0, 1fr) 62px; grid-template-rows: 48px minmax(0, 1fr) 28px 24px; gap: 8px 14px; align-items: center; }
+.lightbox-toolbar { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; }
+.lightbox-counter, .lightbox-caption, .lightbox-hint { color: rgba(255,255,255,.78); font-size: 12px; }
+.lightbox-close, .lightbox-arrow { display: grid; place-items: center; border: 1px solid rgba(255,255,255,.38); border-radius: 50%; background: rgba(255,255,255,.1); color: white; cursor: pointer; transition: background .2s ease, border-color .2s ease; }
+.lightbox-close:hover, .lightbox-arrow:hover { border-color: var(--lime); background: rgba(216,239,125,.18); }
+.lightbox-close { width: 44px; height: 44px; font-size: 30px; line-height: 1; }
+.lightbox-arrow { width: 54px; height: 54px; font-size: 38px; line-height: 1; }
+.lightbox-stage { min-width: 0; min-height: 0; height: 100%; display: grid; place-items: center; touch-action: pan-y; }
+.lightbox-stage img { display: block; max-width: 100%; max-height: min(78vh, 1000px); object-fit: contain; }
+.lightbox-caption, .lightbox-hint { grid-column: 1 / -1; margin: 0; text-align: center; }
+.lightbox-hint { color: rgba(255,255,255,.56); font-size: 10px; }
+
 @keyframes rise-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes image-arrive { from { transform: scale(1.06); } to { transform: scale(1.015); } }
 @keyframes ribbon-scroll { from { transform: translateX(0); } to { transform: translateX(-25%); } }
@@ -293,6 +323,21 @@ h1 em, h2 em { font-weight: 400; }
   .specialties-section { padding-top: 66px; }
   .section-heading-row { align-items: start; flex-direction: column; gap: 16px; margin-bottom: 27px; }
   .section-heading-row h2 { font-size: 37px; }
+  .gallery-hero { min-height: 410px; }
+  .gallery-hero .page-hero-content { padding-block: 0; }
+  .gallery-hero .specialty-art { top: 180px; right: -68px; }
+  .gallery-section { padding-top: 62px; }
+  .gallery-group + .gallery-group { margin-top: 66px; }
+  .gallery-group .section-heading-row { margin-bottom: 22px; }
+  .gallery-group .section-heading-row h2 { font-size: 37px; }
+  .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .lightbox { padding: 12px; }
+  .lightbox-layout { grid-template-columns: 42px minmax(0, 1fr) 42px; grid-template-rows: 44px minmax(0, 1fr) 24px 28px; gap: 5px 7px; }
+  .lightbox-arrow { width: 40px; height: 40px; font-size: 30px; }
+  .lightbox-close { width: 40px; height: 40px; }
+  .lightbox-stage img { max-height: 76vh; }
+  .lightbox-counter, .lightbox-caption { font-size: 11px; }
+  .lightbox-hint { font-size: 9px; }
   .section-aside { align-self: end; margin-top: -4px; }
   .specialty-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
   .specialty-card { min-height: 202px; padding: 17px 14px; }
