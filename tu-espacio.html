@@ -190,16 +190,21 @@
         </div>
         <div class="hero-gallery">
           <div class="gallery-frame" data-carousel aria-label="Galería de consultorios">
-            <img class="slide is-active" src="image/consultorio/IMG-20221206-WA0021.jpg" alt="Consultorio de Vibra Salud, equipado y listo para recibir pacientes">
-            <img class="slide" src="image/consultorio/IMG-20221206-WA0024.jpg" alt="Detalle de uno de los espacios profesionales de Vibra">
-            <img class="slide" src="image/consultorio/IMG_0119.jpg" alt="Ambiente cálido y luminoso para atención profesional">
+            <img class="slide is-active" src="image/consultorio/consultorio12.jpg" alt="Consultorio de Vibra Salud, equipado y listo para recibir pacientes">
+            <img class="slide" src="image/consultorio/consultorio2.jpg" alt="Detalle de uno de los espacios profesionales de Vibra">
+            <img class="slide" src="image/consultorio/consultorio3.png" alt="Ambiente cálido y luminoso para atención profesional">
+            <img class="slide" src="image/consultorio/consultorio4.png" alt="Otro espacio profesional de Vibra">
+            <img class="slide" src="image/consultorio/consultorio5.jpg" alt="Ambiente cálido y luminoso para atención profesional">
+            <img class="slide" src="image/consultorio/consultorio6.jpg" alt="Ambiente cálido y luminoso para atención profesional">
+            <img class="slide" src="image/consultorio/consultorio7.jpg" alt="Ambiente cálido y luminoso para atención profesional">
+            <img class="slide" src="image/consultorio/consultorio8.jpg" alt="Ambiente cálido y luminoso para atención profesional">
+            <img class="slide" src="image/consultorio/consultorio9.jpg" alt="Ambiente cálido y luminoso para atención profesional">
+            <img class="slide" src="image/consultorio/consultorio10.webp" alt="Ambiente cálido y luminoso para atención profesional">
+            <img class="slide" src="image/consultorio/consultorio11.jpg" alt="Ambiente cálido y luminoso para atención profesional">
+            
             <span class="gallery-label">Espacios pensados para vos</span>
             <div class="gallery-controls">
-              <div class="gallery-dots" aria-label="Elegir foto">
-                <button class="gallery-dot" type="button" aria-label="Ver foto 1" aria-current="true"></button>
-                <button class="gallery-dot" type="button" aria-label="Ver foto 2" aria-current="false"></button>
-                <button class="gallery-dot" type="button" aria-label="Ver foto 3" aria-current="false"></button>
-              </div>
+              <div class="gallery-dots" aria-label="Elegir foto"></div>
               <button class="gallery-control" type="button" data-previous aria-label="Foto anterior">←</button>
               <button class="gallery-control" type="button" data-next aria-label="Foto siguiente">→</button>
             </div>
@@ -231,19 +236,7 @@
       </div>
     </section>
 
-    <section class="gallery-section" aria-labelledby="rooms-title">
-      <div class="wrap">
-        <div class="section-heading">
-          <div><p class="eyebrow">Conocé el espacio</p><h2 id="rooms-title">Un lugar donde da gusto <em>trabajar.</em></h2></div>
-          <p>Ambientes cálidos, funcionales y listos para acompañar cada encuentro.</p>
-        </div>
-        <div class="rooms-grid">
-          <figure class="room-photo"><img src="image/consultorio/IMG_20221012_143122_579.webp" alt="Consultorio amplio de Vibra Salud" loading="lazy"><figcaption>Consultorios listos para recibir</figcaption></figure>
-          <figure class="room-photo"><img src="image/consultorio/IMG_20250722_172355.jpg" alt="Detalle de un consultorio equipado" loading="lazy"><figcaption>Un espacio para cada necesidad</figcaption></figure>
-          <figure class="room-photo"><img src="image/espacio/IMG_0278.jpg" alt="Espacio común de Vibra Salud" loading="lazy"><figcaption>Un entorno que te acompaña</figcaption></figure>
-        </div>
-      </div>
-    </section>
+    
 
     <section class="how" id="como-funciona" aria-labelledby="how-title">
       <div class="wrap">
@@ -277,7 +270,17 @@
     (() => {
       const carousel = document.querySelector("[data-carousel]");
       const slides = [...carousel.querySelectorAll(".slide")];
-      const dots = [...carousel.querySelectorAll(".gallery-dot")];
+      const dotsContainer = carousel.querySelector(".gallery-dots");
+      const dots = slides.map((_, i) => {
+        const dot = document.createElement("button");
+        dot.className = "gallery-dot";
+        dot.type = "button";
+        dot.setAttribute("aria-label", `Ver foto ${i + 1}`);
+        dot.setAttribute("aria-current", "false");
+        dotsContainer.append(dot);
+        dot.addEventListener("click", () => { showSlide(i); restartAutoplay(); });
+        return dot;
+      });
       const counter = document.querySelector(".photo-caption span:last-child");
       const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       let active = 0;
@@ -300,7 +303,6 @@
         window.clearInterval(timer);
         startAutoplay();
       }
-      dots.forEach((dot, i) => dot.addEventListener("click", () => { showSlide(i); restartAutoplay(); }));
       carousel.querySelector("[data-previous]").addEventListener("click", () => { showSlide(active - 1); restartAutoplay(); });
       carousel.querySelector("[data-next]").addEventListener("click", () => { showSlide(active + 1); restartAutoplay(); });
       carousel.addEventListener("mouseenter", () => window.clearInterval(timer));
