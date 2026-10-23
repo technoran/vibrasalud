@@ -1,5 +1,5 @@
 const VIBRA_CONFIG = {
-  address: "Carlos Pellegrini 689, Villa Maria, Córdoba, Argentina",
+  address: "Carlos Pellegrini 689, Villa María, Córdoba, Argentina",
   mapQuery: "Vibra Salud coworking",
 };
 
@@ -17,7 +17,7 @@ const professionals = [
   {name: "Od. Sofia Buri",
     specialty: "Odontología",
     key: "odontologia",
-    focus: "Matrícula: 10405<br>Tratamientos de Conducto, Dolor Orofacial, bruxismo y trastornos en la ATM.",
+    focus: "Matrícula: 10405<br>Tratamientos de Conductos, Dolor Orofacial, bruxismo y trastornos en la ATM.",
     coverages: [],
     contactUrl: "https://wa.me/5493534139992",
     photo: "image/sofiburia.jpg",
@@ -26,7 +26,7 @@ const professionals = [
     {name: "Od. Santiago Zunino",
     specialty: "Odontología",
     key: "odontologia",
-    focus: "Matrícula: 10405<br>Odontología general, Implantes, Cirugías, Rehabilitación complejas",
+    focus: "Matrícula: 10405<br>Odontología general, Implantes, Cirugías, Rehabilitaciones complejas",
     coverages: [],
     contactUrl: "https://wa.me/5493534211642",
     photo: "image/zuninoa.jpg",
@@ -35,7 +35,7 @@ const professionals = [
   {name: "Od. Paviotti Luciano",
     specialty: "Odontología",
     key: "odontologia",
-    focus: "Matrícula: 1634<br>Odontología Estética, Odontología General, Rehabilitaciónes Integrales",
+    focus: "Matrícula: 1634<br>Odontología Estética, Odontología General, Rehabilitaciones Integrales",
     coverages: ["SOS SALUD", "OSDE", "NOBIS SALUD"],
     contactUrl: "https://wa.me/5493534212929",
     photo: "image/lupavi.jpg",
@@ -112,8 +112,8 @@ const professionals = [
   },
   {
     name: "Dra. Gabriela Segovia",
-    specialty: "Estetica",
-    key: "estetica",
+    specialty: "Estética",
+    key: "estética",
     focus: "Matrícula: 41993<BR>Medicina Estética Facial",
     coverages: [],
     contactUrl: "https://wa.me/5493515159602",
@@ -124,8 +124,8 @@ Todo con un enfoque orientado a lograr la armonización facial de cada persona e
 },
 {
     name: "Depilación Definitiva",
-    specialty: "Estetica",
-    key: "estetica",
+    specialty: "Estética",
+    key: "estética",
     focus: "Depilación Láser con tecnología Soprano Original",
     coverages: [""],
     contactUrl: "https://wa.me/5493534296964",
@@ -134,8 +134,8 @@ Todo con un enfoque orientado a lograr la armonización facial de cada persona e
   },
   {
     name: "Dra. Giuliana Zucotti",
-    specialty: "Estetica",
-    key: "estetica",
+    specialty: "Estética",
+    key: "estética",
     focus: "Matrícula: 40707<br>Medicina Estética y Tricología",
     coverages: [""],
     contactUrl: "https://wa.me/5492664157173",
@@ -149,7 +149,7 @@ const specialties = [
   ["Todas", ""],
   ["Odontología", "odontologia"],
   ["Nutrición", "nutricion"],
-  ["Estetica", "estetica"],
+  ["Estética", "estética"],
   ["Psicología", "psicologia"],
  
 ];
